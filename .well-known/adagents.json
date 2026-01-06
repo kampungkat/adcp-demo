@@ -1,0 +1,11 @@
+{
+  "publisher": {
+    "domain": "adcp-demo.com",
+    "name": "AdCP Demo Publisher"
+  },
+  "authorized_agents": [],
+  "inventory": {
+    "display": [],
+    "video": []
+  }
+}
