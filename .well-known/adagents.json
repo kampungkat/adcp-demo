@@ -1,11 +1,30 @@
 {
-  "publisher": {
-    "domain": "adcp-demo.com",
-    "name": "AdCP Demo Publisher"
-  },
-  "authorized_agents": [],
-  "inventory": {
-    "display": [],
-    "video": []
-  }
+  "$schema": "https://adcontextprotocol.org/schemas/v2/adagents.json",
+  "authorized_agents": [
+    {
+      "url": "https://sales-agent.enzymic.co",
+      "authorized_for": "Authorized for APX",
+      "property_ids": [
+        "tag:apx"
+      ]
+    }
+  ],
+  "last_updated": "2026-01-06T06:38:18.562Z",
+  "properties": [
+    {
+      "property_id": "demo_publisher",
+      "property_type": "website",
+      "name": "Demo Publisher",
+      "identifiers": [
+        {
+          "type": "domain",
+          "value": "adcp-demo.com"
+        }
+      ],
+      "tags": [
+        "apx",
+        "direct"
+      ]
+    }
+  ]
 }
