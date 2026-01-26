@@ -2,14 +2,14 @@
   "$schema": "https://adcontextprotocol.org/schemas/v2/adagents.json",
   "authorized_agents": [
     {
-      "url": "https://sales-agent.enzymic.co",
+      "url": "https://sales-agent.adzymic.ai",
       "authorized_for": "Authorized for APX",
       "property_ids": [
         "tag:apx"
       ]
     }
   ],
-  "last_updated": "2026-01-06T06:38:18.562Z",
+  "last_updated": "2026-01-26T02:34:18.562Z",
   "properties": [
     {
       "property_id": "demo_publisher",
